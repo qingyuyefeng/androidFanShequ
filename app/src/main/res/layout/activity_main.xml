@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<com.fanhong.cn.view.FixedViewPager-->
+            <!--android:id="@+id/viewPager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1" />-->
+
+        <RadioGroup
+            android:id="@+id/bottom_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/background_daohang"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/home_page"
+                style="@style/m_main_bottom_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/hide_home"
+                android:text="@string/tab_home" />
+
+            <RadioButton
+                android:id="@+id/service_page"
+                style="@style/m_main_bottom_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/button_serve"
+                android:text="@string/tab_service" />
+
+            <RadioButton
+                android:id="@+id/door_page"
+                style="@style/m_main_bottom_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/button_entrance_guard"
+                android:text="@string/tab_accesscontrol" />
+
+            <RadioButton
+                android:id="@+id/interact_page"
+                style="@style/m_main_bottom_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/button_interaction"
+                android:text="@string/tab_interact" />
+
+            <RadioButton
+                android:id="@+id/mine_page"
+                style="@style/m_main_bottom_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/button_user"
+                android:text="@string/tab_mine" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="21dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/click_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@mipmap/click_home" />
+
+        <ImageView
+            android:id="@+id/click_serve"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@mipmap/click_serve"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/click_entrance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@mipmap/click_entrance_guard"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/click_interaction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@mipmap/click_interaction"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/click_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@mipmap/click_user"
+            android:visibility="invisible" />
+    </LinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

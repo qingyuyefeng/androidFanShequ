@@ -49,7 +49,7 @@ public class CommunityChatRoomActivity extends Activity {
     EditText edt_chat_input;
     @ViewInject(R.id.btn_msg_send)
     Button btn_msg_send;
-    @ViewInject(R.id.tv_chat_title)
+    @ViewInject(R.id.tv_title)
     TextView tv_title;
 
     List<CommunityMessageBean> mMessagelist = new ArrayList<>();
@@ -410,7 +410,7 @@ public class CommunityChatRoomActivity extends Activity {
 //        ATCHATROOM = false;
     }
 
-    @Event(R.id.tv_back)
+    @Event(R.id.img_back)
     private void onBackClick(View v) {
         finish();
     }

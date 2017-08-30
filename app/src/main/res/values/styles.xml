@@ -5,4 +5,16 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <!--首页底部-->
+    <style name="m_main_bottom_radio_button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:checked">true</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:textColor">@color/skyblue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
 </resources>
