@@ -17,20 +17,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
-    aaptOptions {
-        cruncherEnabled = false
-        useNewCruncher = false
-    }
-
-    sourceSets {
-        main {
-            //导入.so
-            jniLibs.srcDirs = ['libs']
-        }
-    }
 }
-repositories {
+repositories{
     jcenter() // 或者 mavenCentral()
 }
 
@@ -54,6 +42,4 @@ dependencies {
     compile 'com.amap.api:location:latest.integration'
     //第三方屏幕适配
     compile 'com.zhy:autolayout:1.4.5'
-    //融云库
-    compile project(':imlib')
 }
