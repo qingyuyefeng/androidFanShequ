@@ -1,3 +1,278 @@
 <resources>
-    <string name="app_name">FanShequ</string>
+    <string name="app_name">帆社区</string>
+    <string name="sw_version">FanHong v</string>
+    <!--  客户热线-->
+    <string name="Customerhotline">023-68872002</string>
+
+    <string name="login">登录</string>
+    <string name="logining">登录中……</string>
+    <string name="login_fail">登录失败</string>
+    <string name="login_success">登录成功</string>
+    <string name="logined">已登录</string>
+    <string name="login_noaccount">请输入手机号和密码</string>
+    <string name="login_noaccount1">请输入手机号、验证码和密码</string>
+    <string name="ask_exit">是否退出？</string>
+    <string name="login_verificationcode">请输入验证码</string>
+    <string name="phoneiswrong">手机号错误！请重新输入！</string>
+    <string name="delete">删除</string>
+    <string name="editor">编辑</string>
+    <string name="whetherset">是否设置为默认地址</string>
+
+    <string name="app_login">用户登录</string>
+    <string name="login_user">请输入手机号</string>
+    <string name="login_password">请输入密码</string>
+    <string name="login_password1">请输入右侧验证码</string>
+    <string name="randomcode">获取验证码</string>
+    <string name="randoming">获取中……</string>
+    <string name="login_remember">记住手机号和密码</string>
+    <string name="forgetpassword">忘记密码？</string>
+    <string name="startlogin">没有账号？立即注册</string>
+    <string name="input_randomcode">请输入验证码</string>
+    <string name="input_randomcode2">验证码不正确！请重新输入验证码！</string>
+
+    <string name="tab_home">首页</string>
+    <string name="tab_interact">互动</string>
+    <string name="tab_accesscontrol">门禁</string>
+    <string name="tab_service">服务</string>
+    <string name="tab_mine">我的</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="refuse">拒绝</string>
+    <string name="receive">接受</string>
+
+    <string name="qiandao">签到</string>
+    <string name="wuyezhixing">物业之星</string>
+    <string name="jifen">积分</string>
+    <string name="search">搜索</string>
+
+    <string name="shangmenweixiu">上门维修</string>
+    <string name="guoyingjishu">过硬技术</string>
+    <string name="rangnifangxin">让你放心</string>
+    <string name="kuaidi">快递</string>
+    <string name="daifa_express">代发快递</string>
+    <string name="yourbehave">你的信任</string>
+    <string name="anxintuofu">安心托付</string>
+    <string name="rngs">让您感受</string>
+    <string name="yzsfw">一站式服务</string>
+    <string name="nsbd">你身边的</string>
+    <string name="jtshgj">家庭生活管家</string>
+    <string name="zbch">足不出户</string>
+    <string name="ynwcns">也能完成年审</string>
+    <string name="cellnews">社区新闻</string>
+    <string name="newsdetail">新闻详情</string>
+    <string name="getdatafailed">数据获取失败</string>
+    <!-- 家政区域 -->
+    <string name="keepcleanservice">保洁服务</string>
+    <string name="familyservice">家庭服务</string>
+    <string name="carryservice">搬运服务</string>
+    <string name="otherservice">其他服务</string>
+
+    <string name="nonetwork">网络连接失败，部分数据无法显示</string>
+    <string name="nowife">当前为数据流量连接，请小心流量</string>
+
+    <string name="userregister">用户注册</string>
+    <string name="registering">注册中……</string>
+    <string name="readandagree">我已阅读并同意</string>
+    <string name="protocol">《物业百事通用户协议》</string>
+    <string name="protocol1">物业百事通用户协议</string>
+    <string name="register">注册</string>
+    <string name="register_success">注册成功！</string>
+    <string name="code_wrong">验证码错误！</string>
+    <string name="userbeing">用户已存在！</string>
+    <string name="system_wrong">系统错误！</string>
+    <string name="resetpassword">重置密码</string>
+    <string name="resetpassword_success">重置密码成功！</string>
+    <string name="resetpassword_fail">重置密码失败！</string>
+    <string name="doorkey">门禁钥匙</string>
+    <string name="exit_app_tip">再按一次退出程序</string>
+    <string name="notinscope">设备不在范围内</string>
+    <string name="inscope">设备待机中</string>
+    <string name="opendoorkey">一键开门禁</string>
+    <string name="scanopen">扫一扫开门</string>
+    <string name="authorizeopen">授权临时开门</string>
+    <string name="choosecell">选择小区</string>
+    <string name="chooselou">选择楼栋</string>
+    <string name="inputservice">输入你需要的服务...</string>
+    <string name="usersettings">账号设置</string>
+    <string name="newsnotice">消息通知</string>
+    <string name="mytradeno">我的订单</string>
+    <string name="kehurexian">客户热线</string>
+    <string name="tongyongsz">通用设置</string>
+    <string name="aboutour">关于我们</string>
+    <string name="noticepost">通知公告</string>
+    <string name="moremore">更多>></string>
+    <string name="notice">通知</string>
+    <string name="action">活动</string>
+    <string name="post">公告</string>
+    <string name="pwsh">品味生活</string>
+    <string name="keylogin">点击登录</string>
+    <string name="headportrait">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="account">账号</string>
+    <string name="resetpsw">修改密码</string>
+    <string name="modifynick">修改昵称</string>
+    <string name="mygettingaddress">收货地址</string>
+    <string name="save">保存</string>
+    <string name="initialpassword">初始密码:</string>
+    <string name="newpassword">新设密码:</string>
+    <string name="confirmpassword">确认密码:</string>
+    <string name="confirmchange">确认修改</string>
+    <string name="initalpswwrong">初始密码不对!</string>
+    <string name="newpswwrong">新设密码和确认密码不相同!</string>
+    <string name="initalandnewissame">新设密码和初始密码相同，不用设置!</string>
+    <string name="modifyaccount">修改账号</string>
+    <string name="inputaccount">请输入账号</string>
+    <string name="inputnick">请输入昵称</string>
+    <string name="pleaselogin">请登录!</string>
+    <string name="messagenotification">消息提醒</string>
+    <string name="Eliminatecaching">消除缓存</string>
+    <string name="exitaccount">退出账号</string>
+    <string name="modifynick_success">修改昵称成功！</string>
+    <string name="modifynick_fail">修改昵称失败！</string>
+    <string name="getcode_success">获取验证码成功！请耐心等待服务器的短信</string>
+    <string name="getcode_reget">重新获取验证码</string>
+    <string name="inputisempty">输入不能为空！</string>
+    <string name="clean_fail">清除失败</string>
+    <string name="clean_success">清除成功</string>
+    <string name="systemupgrade">系统更新</string>
+    <string name="inputgoods">输入你需要的商品...</string>
+    <string name="choosepay">请选择支付方式</string>
+    <string name="cart">购物车</string>
+    <string name="pull_to_load_next_page"></string>
+    <string name="current_page_note">当前第%d页</string>
+    <string name="loading_page_note">正在加载</string>
+    <string name="confirmorder">确认订单</string>
+    <string name="addaddress">选择地址</string>
+    <string name="address">地址</string>
+    <string name="orderdetail">订单详情</string>
+    <string name="assess">评价</string>
+    <string name="next">点击加载下一页</string>
+
+    <string name="addgarden">添加小区门禁</string>
+    <string name="clickopendoor">点击开门禁</string>
+    <string name="chooseidentity">身份选择</string>
+    <string name="postmessages">上传资料</string>
+    <string name="thelandlord">房东</string>
+    <string name="familymember">房东家属</string>
+    <string name="tenants">租客</string>
+    <string name="checkidentity">身份验证</string>
+    <string name="addapplydoors">添加钥匙申请</string>
+    <string name="applydoorsuccess">添加成功</string>
+    <string name="assesshit2">请输入楼栋号</string>
+    <string name="example">示例：</string>
+    <string name="connected">已连接</string>
+    <string name="connectfail">连接失败</string>
+    <string name="getcheck">点击获取验证码</string>
+    <string name="regetcheck">秒后可重试</string>
+    <string name="wlbky">网络连接不可用，请检查网络设置!</string>
+    <string name="inputfangdongphone">请输入房东的注册的手机号</string>
+
+    <string name="bianmin">便民服务</string>
+    <string name="service_pay">生活缴费</string>
+    <string name="service_dai">代办年审</string>
+    <string name="service_store">社区卖场</string>
+    <string name="service_lock">紧急开锁</string>
+    <string name="service_park">闲时停车</string>
+    <string name="service_fix">管线维修</string>
+    <string name="service_jd">家电维修</string>
+    <string name="service_kd">代发快递</string>
+    <string name="service_clean">家政服务</string>
+    <string name="service_talk">社区互动</string>
+    <string name="service_es">二手市场</string>
+    <string name="service_zsdl">招商代理</string>
+
+    <string name="shunfeng">顺丰快递</string>
+    <string name="yunda">韵达快递</string>
+    <string name="shentong">申通快递</string>
+    <string name="zhongtong">中通快递</string>
+    <string name="EMS">EMS</string>
+    <string name="yuantong">圆通快递</string>
+    <string name="baishi">百世汇通</string>
+
+    <string name="yszx">衣食住行</string>
+    <string name="service_mt">美团</string>
+    <string name="service_dz">大众点评</string>
+    <string name="service_tb">淘宝</string>
+    <string name="service_jds">京东</string>
+    <string name="service_wph">唯品会</string>
+    <string name="service_yms">亚马逊</string>
+    <string name="service_xc">携程旅行</string>
+    <string name="service_qne">去哪儿</string>
+    <string name="service_tn">途牛</string>
+    <string name="service_tc">同城旅游</string>
+
+    <string name="jyyl">教育/医疗</string>
+    <string name="service_hj">沪江网校</string>
+    <string name="service_funhos">趣医院</string>
+    <string name="service_ks">教师资格考试</string>
+    <string name="service_gwy">公务员考试</string>
+    <string name="service_zc">职称考试</string>
+    <string name="service_my">母婴早教</string>
+
+    <string name="dami">大米</string>
+    <string name="you">食用油</string>
+    <string name="mian">面食</string>
+
+    <string name="postgoods">上传卖品</string>
+    <string name="starting">即将开通</string>
+    <string name="opendoor">暂无大门安装门禁</string>
+
+    <string name="newstitle">重庆帆社区的大数据建设为重庆经济带来飞跃性发展</string>
+    <string name="newsplace">重庆商报</string>
+    <string name="newstime">2017年7月4日  09:30</string>
+
+    <string name="submit">提交</string>
+    <string name="assesshit">写下商品评价来帮助其他小伙伴~</string>
+    <string name="begin_search">开始搜索</string>
+    <string name="unmatch_device">未匹配设备</string>
+    <string name="match_device">已配对设备</string>
+    <string name="ver1">发布版本：V</string>
+    <string name="ver2">版本说明：</string>
+    <string name="update_zwgx">暂时无更新版本...</string>
+    <string name="sw_license">Copyright FanHong All Rights Reserved.</string>
+    <string name="sw_license1">Copyright ©2015-2017\n重庆凡鸿通信技术有限公司</string>
+    <string name="face_recognition">\n\u3000\u3000人脸识别，是基于人的脸部特征信息进行身份识别的一种生物识别技术。用摄像机或摄像头采集含有人脸的图像或视频流，并自动在图像中检测和跟踪人脸，进而对检测到的人脸进行脸部的一系列相关技术，通常也叫做人像识别、面部识别。\n\n\u3000\u3000凡鸿科技在2013年开发人脸识别，主要用于社区安防系统，打造智能、便捷、安全的社区生活环境。\n</string>
+    <string name="verification_car_details">办理机动车年审预约的条件:
+        \n\u3000\u3000(一) 已在公安机关交通管理部门登记的机动车, 摩托车不需预约。
+        \n\u3000\u3000(二) 允许在车辆检验有效期满前3个月内或满后任一天内提出申请。车辆检验有效期可查看您的机动车行驶证副
+        本。(如您的车辆检验有效期至2013年11月,则您可以从2013年9月1日起申请网上预约机动车年审服务) 。
+        \n
+        \n预约的时间范围:
+        \n\u3000\u3000(一)预约从第二日起十个工作日内的年审服务。(如您在2013年9月1日可以预约9月2日~6日, 9月9日一13日之间
+        的机动车年审服务)
+        \n\u3000\u3000(二) 需要取消预约, 至少需提前一天提出申请。(非工作日也可提出取消申请)
+        \n\u3000\u3000(三) 提供预约和取消预约服务的时间为每天5:30-23:30。
+        \n
+        \n免检车辆预约年审
+        \n\u3000\u3000注册登记6年以内的非营运轿车和其他小型、微型载客汽车(面包车、7座及7座以上车辆和发生过人员1为伤亡交通事
+        故的车辆除外) ,每2年需要定期检验时,机动车所有人可以预约我市公安机关交通管理部门车管总所、分所和大队违
+        法处理室的受理窗口申请领取检验标志, 也可以到我市邮政部门对外服务窗口申请领取检验标志, 无需到检验机构进
+        行安全技术检验 。\n</string>
+    <string name="little_tip">请保持手机24小时畅通，稍后会有客服人员与你核对资料</string>
+    <string name="daifaxuzhi">1、为保证代寄物安全送达，寄件人寄件时应履行一下义务：\n
+                        （1）\u3000如实申报托寄物内容和价值，并准确、清楚地填写寄件人、收件人的名称、地址、联系电话等资料。\n
+                        （2）\u3000根据托寄物的性质（尤其是易碎品、液体、气体），提供充分的防破损、防漏、防爆措施，保障托寄物安全派达。\n
+                        （3）\u3000本公司有权依法对托寄物进行验视，如发现进制寄递或者限制寄递的物品，有权移交相关部门处理，并配合相关部门
+                                    追究寄件人违法寄递的法律责任。\n\n
+                            2、对于签单返还服务，若因本公司原因导致签收回单毁损、丢失的、本公司承担的责任权限于免费提供一次签单返还服务作为赔偿。\n\n
+                            3、本契约条款未作约定的，或本契约条款与国家相关法律法规及标准相冲突的，按照相关规定执行。
+                    </string>
+    <string name="read_order">已认真阅读并理解预约须知</string>
+    <string name="zhaomutop">尊敬的用户：\n
+                            \u3000\u3000您好！您当前已参加本次招募，您的收益结果查询如下，
+                            感谢您的参与！</string>
+    <string name="zhaomubottom">* 注：佣金金额根据实际门的数量来计算，如合同上签了10个门，我公司实地调查
+                            有11个门，门的数量将以11个门来计算。\n
+                            佣金金额=实际门的数量*50元/门</string>
+    <string name="carmustknows">一、确认上面资料的真实性和完整性，如因资料导致的损失由本人承担。
+二、在用户上传资料后我司将于两个小时之内安排工作人员跟你联系确定取车时间。
+三、所需资料：
+（1）《机动车行驶证》原件。
+（2）机动车交通事故强制保险凭证第三联原件（原件丢失的，提交其他任一联复印件并加盖保险公司印章或由保险公司提供的补办凭证，原件因上次核发检验合格标志时已收存的，提供任一联原件及复印件）。
+（3）车船税纳税或者免税证明原件和复印件（渝警号牌车辆、核定载客人数在9人以下（含9人）以下没有发动机排量的纯电动车不属于车船税征税范围，不需要提供相关证明）
+（4）代理人申请核发机动车检验合格标志业务的，应当提交代理人的身份证明和机动车所有人的书面委托
+四、核发检验合格标志条件：
+       机动车检验合格且排气污染物检测报告结论为“合格”的，直接在承检安检机构机动车检验合格标志远程核发窗口申领机动车检验合格标志。机动车所有人为单位的，由本单位的被委托人或代理人持身份证明办理。
+        除以上须提交的证明、凭证外，运输危险化学品常压罐式汽车须持重庆市特种承压设备检测研究院出具的有效期为一年的《常压槽罐车结论报告》正本和复印件；运输危险化学品承压罐式汽车须持重庆市质量技术监督局核发的有效期内的《移动式压力容器使用登记证》正本及复印件；使用警报器和标志灯具的非警用特种车辆须持省公安厅核发的《特种车辆警报器和标志灯具使用证》正本和复印件。</string>
+
 </resources>
