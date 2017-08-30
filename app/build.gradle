@@ -47,7 +47,9 @@ dependencies {
     })
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile files('libs/xUtils-3.1.22.jar')
+    //xutils
+    compile 'org.xutils:xutils:3.3.36'
+    //recyclerview
     compile 'com.android.support:recyclerview-v7:25.0.0'
     //banner
     compile 'com.xiwenhec:banner:1.0.4'
