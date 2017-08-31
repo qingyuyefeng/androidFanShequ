@@ -69,9 +69,9 @@ public class FragmentMainActivity extends FragmentActivity {
     private Fragment[] getFragments() {
         fragments = new Fragment[5];
         fragments[0] = new HomeViewFragment();
-        fragments[1] = new MineViewFragment();
-        fragments[2] = new MineViewFragment();
-        fragments[3] = new MineViewFragment();
+        fragments[1] = new ServiceViewFragment();
+        fragments[2] = new EnguardViewFragment();
+        fragments[3] = new ComunityViewFragment();
         fragments[4] = new MineViewFragment();
         return fragments;
     }

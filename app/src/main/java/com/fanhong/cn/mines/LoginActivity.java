@@ -35,7 +35,7 @@ public class LoginActivity extends Activity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         x.view().inject(this);
-        title.setText(R.string.userregister);
+        title.setText(R.string.app_login);
     }
     @Event({R.id.img_back,R.id.login,R.id.tv_forgetpassword,R.id.tv_startregister})
     private void onClick(View v){

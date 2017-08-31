@@ -70,6 +70,14 @@
             android:name=".community.CommunityChatRoomActivity"
             android:screenOrientation="portrait" />
         <!-- Community end -->
+        <!-- Mines -->
+        <activity
+            android:name=".mines.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mines.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <!-- Mines end-->
 
         <!-- android7.0拍照权限调取 -->
         <provider
