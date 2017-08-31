@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/tx_bg"
+        >
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/iv_login"
+                android:layout_width="160px"
+                android:layout_height="160px"
+                android:layout_marginTop="52px"
+                android:layout_marginBottom="12px"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ico_tx"
+                />
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_below="@id/iv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40px"
+                android:textSize="30px"
+                android:text="@string/keylogin"
+                android:textColor="@color/white"/>
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_userset"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/itemcolor_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="52px"
+                    android:layout_height="52px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40px"
+                    android:background="@mipmap/ico_people" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/usersettings"
+                    android:textColor="@color/textgray"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:id="@+id/iv_next"
+                    android:layout_width="44px"
+                    android:layout_height="44px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="@mipmap/ico_qj"
+                    android:focusable="false" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="20px"
+                android:background="#e5e5e5" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_mytradeno"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/itemcolor_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="52px"
+                    android:layout_height="52px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40px"
+                    android:background="@mipmap/ico_order" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/mytradeno"
+                    android:textColor="@color/textgray"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="44px"
+                    android:layout_height="44px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="@mipmap/ico_qj"
+                    android:focusable="false" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="20px"
+                android:background="#e5e5e5" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_notice"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/itemcolor_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="52px"
+                    android:layout_height="52px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40px"
+                    android:background="@mipmap/ico_message" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/newsnotice"
+                    android:textColor="@color/textgray"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:layout_width="44px"
+                    android:layout_height="44px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="@mipmap/ico_qj"
+                    android:focusable="false" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="20px"
+                android:background="#e5e5e5" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_call"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/itemcolor_selector"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="52px"
+                    android:layout_height="52px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40px"
+                    android:background="@mipmap/ico_kf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="24px"
+                    android:text="@string/kehurexian"
+                    android:textColor="@color/textgray"
+                    android:textSize="30px" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|right"
+                    android:orientation="vertical">
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_call"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/Customerhotline"
+                            android:textColor="@color/textgray"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="44px"
+                            android:layout_height="44px"
+                            android:layout_marginLeft="20px"
+
+                            android:background="@mipmap/ico_qj"
+                            android:focusable="false" />
+                    </com.zhy.autolayout.AutoLinearLayout>
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="20px"
+                android:background="#e5e5e5" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_generalset"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/itemcolor_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="52px"
+                    android:layout_height="52px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40px"
+                    android:background="@mipmap/ico_sz" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/tongyongsz"
+                    android:textColor="@color/textgray"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:layout_width="44px"
+                    android:layout_height="44px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="@mipmap/ico_qj"
+                    android:focusable="false" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="20px"
+                android:background="#e5e5e5" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_versionupgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/itemcolor_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="52px"
+                    android:layout_height="52px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40px"
+                    android:background="@mipmap/ico_gx" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/systemupgrade"
+                    android:textColor="@color/textgray"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:layout_width="44px"
+                    android:layout_height="44px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="@mipmap/ico_qj"
+                    android:focusable="false" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="20px"
+                android:background="#e5e5e5" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_about"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/itemcolor_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="52px"
+                    android:layout_height="52px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40px"
+                    android:background="@mipmap/ico_about" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="24px"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/aboutour"
+                    android:textColor="@color/textgray"
+                    android:textSize="30px" />
+
+                <ImageView
+                    android:layout_width="44px"
+                    android:layout_height="44px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="@mipmap/ico_qj"
+                    android:focusable="false" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="40px"
+                android:layout_marginRight="20px"
+                android:background="#e5e5e5" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>
