@@ -1,8 +1,8 @@
 package com.fanhong.cn.views;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +21,7 @@ import org.xutils.x;
  * Created by Administrator on 2017/8/30.
  */
 @ContentView(R.layout.fragment_home)
-public class HomeViewFragment extends Fragment{
+public class HomeViewFragment extends Fragment {
     @ViewInject(R.id.image_choosecell)
     private ImageView chooseCell;
     @ViewInject(R.id.show_cellname)

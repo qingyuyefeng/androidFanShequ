@@ -9,11 +9,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!--<com.fanhong.cn.view.FixedViewPager-->
-            <!--android:id="@+id/viewPager"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="0dp"-->
-            <!--android:layout_weight="1" />-->
+        <com.fanhong.cn.myviews.FixedViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
         <RadioGroup
             android:id="@+id/bottom_radiogroup"

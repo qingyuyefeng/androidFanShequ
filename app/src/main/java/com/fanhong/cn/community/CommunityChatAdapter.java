@@ -1,4 +1,4 @@
-package com.fanhong.cn.community.adapter;
+package com.fanhong.cn.community;
 
 
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.fanhong.cn.App;
 import com.fanhong.cn.R;
-import com.fanhong.cn.community.models.CommunityMessageBean;
+import com.fanhong.cn.community.CommunityMessageBean;
 import com.zhy.autolayout.utils.AutoUtils;
 
 import org.xutils.image.ImageOptions;
