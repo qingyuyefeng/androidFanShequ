@@ -84,7 +84,7 @@ public class App extends Application {
         return null;
     }
 
-    public static String getUrlFromUri(Uri uri){
-        return  WEB_SITE+uri.getPath();
+    public static String getUrlFromUri(Uri uri) {
+        return WEB_SITE + uri.getPath();
     }
 }

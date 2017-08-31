@@ -6,8 +6,10 @@ import android.support.v4.app.FragmentActivity;
 
 import com.fanhong.cn.R;
 
+
 import org.xutils.view.annotation.ContentView;
 import org.xutils.x;
+
 
 /**
  * Created by Administrator on 2017/8/30.
