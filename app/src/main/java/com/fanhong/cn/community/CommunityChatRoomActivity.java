@@ -20,8 +20,6 @@ import android.widget.TextView;
 
 import com.fanhong.cn.App;
 import com.fanhong.cn.R;
-import com.fanhong.cn.community.adapter.CommunityChatAdapter;
-import com.fanhong.cn.community.models.CommunityMessageBean;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;
@@ -44,18 +42,18 @@ import io.rong.message.TextMessage;
 @ContentView(R.layout.activity_comim_chatroom)
 public class CommunityChatRoomActivity extends Activity {
     @ViewInject(R.id.lv_chatroom_msg_content)
-    ListView lv_msg_content;
+    private ListView lv_msg_content;
     @ViewInject(R.id.edt_chat_input)
-    EditText edt_chat_input;
+    private EditText edt_chat_input;
     @ViewInject(R.id.btn_msg_send)
-    Button btn_msg_send;
+    private Button btn_msg_send;
     @ViewInject(R.id.tv_title)
-    TextView tv_title;
+    private TextView tv_title;
 
-    List<CommunityMessageBean> mMessagelist = new ArrayList<>();
+    private List<CommunityMessageBean> mMessagelist = new ArrayList<>();
 
-    CommunityChatAdapter adapter;
-    SharedPreferences pref;
+    private CommunityChatAdapter adapter;
+    private SharedPreferences pref;
 
     private boolean ATCHATROOM = false;
 
@@ -230,7 +228,6 @@ public class CommunityChatRoomActivity extends Activity {
      */
     private void connectRongCloud(final String token, final String chatRoomId) {
 //        Log.i("IMFragment", "token=" + token + "chatroomId=" + chatRoomId);
-//        edt_chat_input.setEnabled(false);
         RongIMClient.connect(token, new RongIMClient.ConnectCallback() {
             @Override
             public void onTokenIncorrect() {

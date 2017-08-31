@@ -1,7 +1,7 @@
 package com.fanhong.cn.utils;
 
 
-import com.fanhong.cn.community.models.CommunityNewsBean;
+import com.fanhong.cn.community.CommunityNewsBean;
 import com.fanhong.cn.models.RegionInfo;
 
 import org.json.JSONArray;

@@ -1,4 +1,4 @@
-package com.fanhong.cn.community.models;
+package com.fanhong.cn.community;
 
 /**
  * Created by Administrator on 2017/6/30.
