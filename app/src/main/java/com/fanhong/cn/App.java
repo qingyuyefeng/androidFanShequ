@@ -3,6 +3,7 @@ package com.fanhong.cn;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Process;
@@ -27,6 +28,9 @@ public class App extends Application {
     public static String LOGO_URL = "";   //头像的url
     public static String TOKEN = "";   //融云Token码
     public static String CHATROOM = "";   //聊天室ID
+
+    public static SharedPreferences mSettingPref;
+
     public static Set<Long> old_msg_times = new HashSet<>();
 
     public static final String WEB_SITE = "http://m.wuyebest.com";
@@ -53,6 +57,8 @@ public class App extends Application {
         super.onCreate();
         //xUtils初始化
         x.Ext.init(this);
+        //初始化SharedPreferences
+        mSettingPref = getApplicationContext().getSharedPreferences("Setting",Context.MODE_PRIVATE);
         /**
          * OnCreate 会被多个进程重入，这段保护代码，确保只有您需要使用 RongIMClient 的进程和 Push 进程执行了 init。
          * io.rong.push 为融云 push 进程名称，不可修改。
